@@ -1,13 +1,4 @@
 const discord = require('discord.js');
-const low = require('lowdb');
-const FileSync = require('lowdb/adapters/FileSync');
-const adapter = new FileSync('database.json');
-const db = low(adapter);
-const assert = require('assert');
-const parseXlsx = require('excel');
-const parseExcel = require('excel/commonjs/excelParser.js');
-
-
 
 
 var bot = new discord.Client();
