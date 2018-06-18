@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Lancer le programme",
-            "program": "${workspaceFolder}/node_modules\\main.js"
+            "program": "DO-bot/.gitignore/main.js"
         }
     ]
 }
